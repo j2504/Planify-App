@@ -39,14 +39,14 @@ const Login: FC = () => {
     <img src={image1} alt='planify logo' className='logo'/>
     <h2>Login</h2>
     <form className="row g-3">
-  <div className="col-md-4">
+  <div className="col-md-6">
     <label htmlFor="validationDefaultUsername" className="form-label">Username</label>
     <div className="input-group">
       <span className="input-group-text" id="inputGroupPrepend2">@</span>
       <input type="text" className="form-control" value={username} onChange={(e) => setUserName(e.target.value)} placeholder='UserName' required/>
     </div>
   </div>
-  <div className="col-md-4">
+  <div className="col-md-6">
     <label htmlFor="validationDefault03" className="form-label">Password</label>
     <input type="password" className="form-control" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required/>
   </div>
