@@ -18,7 +18,7 @@ export function App() {
       <Route path="*" element={<Error/>}/>
       <Route path="/login" element={<Login />} />
       <Route path="/logOut" element={<LogOut />} />
-      <Route path="/register" element={<SignUp />} />
+      <Route path="/signUp" element={<SignUp />} />
       <Route path="/taskform" element={<TaskForm />} />
       <Route path="/tasklist" element={<TaskList />} />
     </Routes>
