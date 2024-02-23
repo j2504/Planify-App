@@ -13,10 +13,10 @@ function Header(){
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/taskform">Account</Nav.Link>
+                        <Nav.Link href="/account">Account</Nav.Link>
                         <NavDropdown title="Tasks" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Task Form</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="/taskform">Task Form</NavDropdown.Item>
+                            <NavDropdown.Item href="/taskhub">
                                 Task Hub
                             </NavDropdown.Item>
                         </NavDropdown>
