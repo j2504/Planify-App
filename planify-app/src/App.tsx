@@ -8,6 +8,7 @@ import TaskList from "./Pages/TaskList/TaskList";
 import Error from "./Components/Error";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import UserAccount from "./Pages/UserAccount/UserAccount";
 
 export function App() {
   return (
@@ -18,9 +19,10 @@ export function App() {
       <Route path="*" element={<Error/>}/>
       <Route path="/login" element={<Login />} />
       <Route path="/logOut" element={<LogOut />} />
-      <Route path="/register" element={<SignUp />} />
+      <Route path="/signUp" element={<SignUp />} />
       <Route path="/taskform" element={<TaskForm />} />
-      <Route path="/tasklist" element={<TaskList />} />
+      <Route path="/taskhub" element={<TaskList />} />
+      <Route path="/account" element={<UserAccount/>} />
     </Routes>
     <Footer />
     </>
