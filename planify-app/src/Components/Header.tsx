@@ -1,11 +1,14 @@
 import { Navbar, Container, Nav, NavDropdown, Button, Form } from "react-bootstrap";
+import image1 from '../assets/PlanifyLogo.jpg'
 
 function Header(){
     return(
         <><Navbar expand="lg" className="bg-body-tertiary">
             
             <Container>
-                <Navbar.Brand href="/" >Planify</Navbar.Brand>    
+                <Navbar.Brand href="/" >
+                <img src={image1} alt="planify logo" id="planifyLogo"/>
+                </Navbar.Brand>    
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
